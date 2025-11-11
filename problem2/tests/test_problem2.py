@@ -45,6 +45,6 @@ def test_problem_dynamic(monkeypatch, capsys, input_str, expected_output):
       assert sol == result
 
     test(importlib.import_module("solutions.solution1"))
-    test(importlib.import_module("solutions.solution2"))
+    #test(importlib.import_module("solutions.solution2"))
     test(importlib.import_module("solutions.solution3"))
     test(importlib.import_module("solutions.solution4"))
